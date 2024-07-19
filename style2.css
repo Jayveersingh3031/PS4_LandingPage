@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Ogg;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-top: 20px;
+    padding-top: 5px;
+    width: 40px;
+    cursor: pointer;  
+    width: 100px;
+}
+
+#menu{
+    margin-top: 20px;
+    width: 25px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    font-size: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+nav ul li a{
+    font-size: 15px;
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover{
+    color: rgb(146, 11, 56);
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.col-1 h2{
+    font-size: 64px;
+}   
+
+.col-1 h3{
+    font-size: 24px;
+    color: #707070;
+    font-weight: 100;
+    margin: 10px 0 10px;
+}
+
+.col-1 p{
+    font-size: 14px;
+    font-weight: 100;
+    color: #b7b7b7;
+}
+
+.col-1 h4{
+    font-size: 20px;
+    margin: 30px 0;
+}
+
+.col-1 button{
+    width: 200px;
+    border: 0;
+    padding: 12px 10px;
+    color: white;
+    background: linear-gradient(to right, #fb5283,#ff3527);
+}
+
+.design{
+    position: absolute;
+    top: 35%;
+    left: 7%;
+    width: 6px;
+    height: 25%;
+    background: linear-gradient( #fb469f,#ff6062);
+}
+
+.controller{
+    position: absolute;
+    width: 35%;
+    top: 21%;
+    right: 12%;
+}
+
+.box{
+    position: absolute;
+    top:25%;
+    right: 0;
+    border-radius: 5% 0 0 5%;
+    height: 50%;
+    width: 30%;
+    z-index: -1;
+    background:linear-gradient( #fb469f,#ff6062) ;
+}
+
+.social{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    cursor: pointer;
+}
+
+.social i{
+    margin: 10px;
+    font-size: 30px;
+}
+
+#circle{
+    
+}
